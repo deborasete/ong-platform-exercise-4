@@ -4,6 +4,46 @@ This repository hosts the front-end foundation for a comprehensive web platform 
 
 - You can visit the live site here: https://ong-platform.vercel.app/
 
+## GitFlow - Branching Strategy
+
+This project follows the GitFlow branching strategy, which organizes development into separate branches to ensure a clean, continuous, and safe workflow.
+
+### Creating the develop Branch
+
+The develop branch serves as the main branch for ongoing development.
+It contains the latest stable code that will eventually be merged into the main branch.
+
+#### Create a new develop branch from the main branch:
+```bash 
+git checkout -b develop
+```
+
+#### Push the develop branch to the remote repository:
+```bash
+git push -u origin develop
+```
+
+### Creating a Feature Branch
+
+Each new feature should be developed in its own branch derived from develop.
+This makes it easier to manage versions, review code, and integrate changes safely.
+
+Example for the WCAG (Web Accessibility) feature:
+
+#### Create a feature branch from develop:
+```bash
+git checkout -b feature/wcag
+```
+
+#### Push the feature branch to the remote repository:
+```bash
+git push -u origin feature/wcag
+```
+
+## Accessibility - WCAG
+
+<img width="1918" height="908" alt="image" src="https://github.com/user-attachments/assets/9e17e12f-1879-45b7-bca0-c55c7d0902e5" />
+
 ## Technologies
 
 - **React** 18.2.0 - JavaScript library for building user interfaces
