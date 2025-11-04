@@ -40,6 +40,36 @@ git checkout -b feature/wcag
 git push -u origin feature/wcag
 ```
 
+### Creating Pull Request
+This pull request sends the feature branch to develop:
+https://github.com/deborasete/ong-platform-exercise-4/pull/1
+
+
+### Starting a new Release
+
+#### Create a release branch from develop:
+```bash
+git checkout -b release/1.0.0
+```
+
+### Finishing the Release
+
+#### Merge into main:
+```bash
+git checkout main
+git merge --no-ff release/1.0.0
+git tag -a v1.0.0 -m "Release 1.0.0"
+git push origin main --tags
+```
+
+#### Merge into develop:
+```bash
+git checkout develop
+git merge --no-ff release/1.0.0
+git push origin develop
+```
+
+
 ## Accessibility - WCAG
 
 <img width="1918" height="908" alt="image" src="https://github.com/user-attachments/assets/9e17e12f-1879-45b7-bca0-c55c7d0902e5" />
