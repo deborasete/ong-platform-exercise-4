@@ -2,7 +2,7 @@
 
 This repository hosts the front-end foundation for a comprehensive web platform designed to assist Brazilian Non-Governmental Organizations (NGOs). The goal is to provide a professional digital space for managing activities, promoting social projects, and streamlining **volunteer engagement**.
 
-- You can visit the live site here: https://ong-platform.vercel.app/
+- You can visit the live site here: https://ong-platform-exercise-4.vercel.app/
 
 ## GitFlow - Branching Strategy
 
